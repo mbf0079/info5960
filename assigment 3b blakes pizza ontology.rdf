@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7/"
+     xml:base="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:pizza="http://www.co-ode.org/ontologies/pizza/pizza.owl#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7">
+        <owl:imports rdf:resource="http://www.co-ode.org/ontologies/pizza/2.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000005 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000005">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">marinarasaucetopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000006 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000006">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">pestosaucetopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000007 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000007">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">buffalosaucetopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000008 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000008">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">whitesaucetopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000009 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000009">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#SauceTopping"/>
+        <rdfs:label xml:lang="en">bbqsaucetopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000010 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000010">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#hasBase"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">flatbread</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000011 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000011">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">bbq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000012 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000012">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#hasTopping"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pesto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000013 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000013">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#hasTopping"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#hasTopping"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000005"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#hasBase"/>
+                        <owl:allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#DeepPanBase"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">chicago</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000014 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000014">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase"/>
+        <rdfs:label xml:lang="en">sicilliancurstbase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000015 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000015">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PizzaBase"/>
+        <rdfs:label xml:lang="en">flatbreadbase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000024 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000024">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#Pizza"/>
+        <pizza:hasBase rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000025"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000026"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000027"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000028"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000029"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000030"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000031"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000032"/>
+        <pizza:hasTopping rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000033"/>
+        <rdfs:label xml:lang="en">blakespizza</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000025 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000025">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#DeepPanBase"/>
+        <rdfs:label xml:lang="en">blakescrust</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000026 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000026">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#MozzarellaTopping"/>
+        <rdfs:label xml:lang="en">blakescheese</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000027 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000027">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLClass_mbf00000009"/>
+        <rdfs:label xml:lang="en">blakesbbqsauce</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000028 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000028">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ChickenTopping"/>
+        <rdfs:label xml:lang="en">blakeschicken</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000029 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000029">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#RedOnionTopping"/>
+        <rdfs:label xml:lang="en">blakesonion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000030 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000030">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#PepperTopping"/>
+        <rdfs:label xml:lang="en">blakespeppers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000031 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000031">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#HamTopping"/>
+        <rdfs:label xml:lang="en">blakesham</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000032 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000032">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#TobascoPepperSauce"/>
+        <rdfs:label xml:lang="en">blakestobascosauce</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000033 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mblak/ontologies/2023/1/untitled-ontology-7#OWLNamedIndividual_mbf00000033">
+        <rdf:type rdf:resource="http://www.co-ode.org/ontologies/pizza/pizza.owl#ParmesanTopping"/>
+        <rdfs:label xml:lang="en">blakesparmesancheese</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
+
